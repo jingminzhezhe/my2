@@ -1,0 +1,13 @@
+https://www.amberbit.com/blog/2014/6/12/calling-c-cpp-from-ruby/
+
+mint就成功
+
+
+win不行
+
+
+
+gcc -shared ffi_test.c -o ffi_test.dll
+关键路径必须是全绝对路径！
+ruby ff.rb
+成功
